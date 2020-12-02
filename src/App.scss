@@ -3,11 +3,21 @@
   height: 100vh;
   color: white;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
 
   header {
-    margin: auto;
+    margin: 0 auto;
     font-size: 8vw;
     font-family: Monument;
+  }
+
+  p {
+    margin: 0 auto;
+    margin-top: 100px;
+    font-family: Monument-Bold;
+    font-size: 20px;
+    letter-spacing: 4px;
   }
 }
 
