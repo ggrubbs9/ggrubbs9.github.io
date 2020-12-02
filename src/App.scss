@@ -1,0 +1,23 @@
+.App {
+  background-image: url(./assets/blackrock.jpg);
+  height: 100vh;
+  color: white;
+  display: flex;
+
+  header {
+    margin: auto;
+    font-size: 8vh;
+    font-weight: normal;
+    font-family: Monument;
+  }
+}
+
+@font-face {
+  font-family: Monument;
+  src: url("./fonts/MonumentExtended-Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Monument-Bold;
+  src: url("./fonts/MonumentExtended-Ultrabold.otf") format("opentype");
+}

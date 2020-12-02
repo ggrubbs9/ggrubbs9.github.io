@@ -1,8 +1,13 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 
 function App() {
-  return <div className='App'>Hi my name is Graham and this is my website</div>;
+  return (
+    <div>
+      <div class='App'>
+        <header>&lt; Graham / &gt;</header>
+      </div>
+    </div>
+  );
 }
 
 export default App;
